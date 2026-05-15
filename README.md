@@ -42,8 +42,8 @@ Reload after dropping it in: `systemctl --user daemon-reload`.
 ## Install
 
 1. Enable developer mode in Decky Loader and turn on the CEF debugger.
-2. Build the plugin (see below) or download a release zip.
-3. Copy the resulting plugin folder to `~/homebrew/plugins/decky-opencode/` on the Deck, or use the Decky CLI / store sideload flow.
+2. Grab `decky-opencode-vX.Y.Z.zip` from the [Releases page](https://github.com/impuls42/decky-opencode/releases) (or build it yourself — see below).
+3. Unzip into `~/homebrew/plugins/` on the Deck so you end up with `~/homebrew/plugins/decky-opencode/` containing `dist/index.js`, `main.py`, `plugin.json`, etc.
 4. Restart Decky Loader from the Quick Access Menu.
 
 The plugin appears in the QAM with the terminal icon and the title **OpenCode Web**.
