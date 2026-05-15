@@ -1,0 +1,11 @@
+{
+  "name": "OpenCode Web",
+  "author": "zisen",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["utility", "opencode", "systemd"],
+    "description": "Control the opencode-web.service systemd user unit from Game Mode.",
+    "image": "https://raw.githubusercontent.com/impuls42/decky-opencode/main/assets/logo.png"
+  }
+}
